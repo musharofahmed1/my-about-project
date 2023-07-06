@@ -1,3 +1,29 @@
-p{
-    background-color: aqua;
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.menus-container{
+    background-color:rgb(41, 40, 40);
+    padding: 20px;
+    color:white;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.logo-photo{
+    width:120px;
+}
+.menus{
+    display: flex;   
+}
+.item{
+    margin-right: 10px;
+    padding: 7px;
+    font-size: 18px;
+}
+.item:hover{
+    color:chartreuse;
+    cursor: pointer;
 }
