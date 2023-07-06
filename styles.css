@@ -27,3 +27,42 @@
     color:chartreuse;
     cursor: pointer;
 }
+.banner-img{
+    width: 300px;
+    
+}
+.banner-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 40px;
+    height: 100vh;
+   /* border: 2px solid black;*/
+    background-image: url("./images/background.png"),
+    linear-gradient(45deg,rgb(51, 47, 47),rgb(65, 57, 57));
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+.title{
+    font-size: 55px;
+    font-weight: bold;
+}
+.description{
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;;
+}
+.btn{
+    padding: 10px 20px;
+    background-color: coral;
+    color: white;
+    border: none;
+    border-radius: 10px;
+
+}
+.btn:hover{
+    color: rgb(81, 134, 35);
+    cursor: pointer;
+}
