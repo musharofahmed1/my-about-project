@@ -92,19 +92,24 @@ summary{
 }
 .service-container{
     display: flex;
-    padding: 10px;
+    padding: 100px 10px 100px 10px;
     justify-content: space-around;
     align-items: center;
-}
+    background-color: black;
+    
+   
+}  
 .digital-art{
     height: 230px;
     width: 280px;
-    border: 2px solid white;
+    border: 1px solid white;
     background-color: black;
     text-align: center;
     padding: 15px;
     color: white;
+     
 }
+
 .service-logo{
     width: 70px;;
 }
@@ -124,4 +129,67 @@ summary{
 .abt-info{
     font-size: 20px;
 }
- 
+.foot-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0px 20px 0px;
+     
+    background-image: url("./images/product-3.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+     
+}
+.contact-deatails{
+    border: 1px solid white;
+    height: 150px;
+    width: 250px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    
+}
+    
+}
+.link{
+    list-style: none;
+    font-size: 20px;
+    
+    
+}
+.link:hover{
+    color: #f14040;
+    cursor: pointer;
+}
+h3{
+    text-align: center;
+}
+.links{
+    border: 1px solid white;
+    height: 150px;
+    width: 250px;
+    padding: 10px;
+    background-color: black;
+    color: white; 
+}
+ul > li > a{
+    color:aliceblue;
+     
+}
+.branchs{
+    border: 1px solid white;
+    height: 150px;
+    width: 250px;
+    padding: 10px;
+    background-color: black;
+    color: white; 
+    text-align: center;
+}
+ol > li{
+    list-style: none;
+    font-size: 20px;
+}
+ul >li{
+    list-style: none;
+}
