@@ -134,19 +134,17 @@ summary{
     justify-content: space-around;
     align-items: center;
     padding: 20px 0px 20px 0px;
-     
-    background-image: url("./images/product-3.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-color: black;
+    color: white;
+    height: 250px;
      
 }
 .contact-deatails{
-    border: 1px solid white;
+    
     height: 150px;
     width: 250px;
     padding: 10px;
-    background-color: black;
+     
     color: white;
     
 }
@@ -166,11 +164,11 @@ h3{
     text-align: center;
 }
 .links{
-    border: 1px solid white;
+     
     height: 150px;
     width: 250px;
     padding: 10px;
-    background-color: black;
+    
     color: white; 
 }
 ul > li > a{
@@ -178,11 +176,11 @@ ul > li > a{
      
 }
 .branchs{
-    border: 1px solid white;
+     
     height: 150px;
     width: 250px;
     padding: 10px;
-    background-color: black;
+     
     color: white; 
     text-align: center;
 }
