@@ -66,3 +66,62 @@
     color: rgb(81, 134, 35);
     cursor: pointer;
 }
+.about-image{
+    height: 400px;
+     
+}
+.about-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding: 20px;
+
+}
+.about-title{
+    text-align: center;
+    padding-top: 20px;
+}
+summary{
+  padding: 4px;
+  width: 100px;
+  background-color: #f3abab;
+  border: none;
+  box-shadow: 1px 1px 2px #f14040;
+  cursor: pointer;
+}
+.service-container{
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+    align-items: center;
+}
+.digital-art{
+    height: 230px;
+    width: 280px;
+    border: 2px solid white;
+    background-color: black;
+    text-align: center;
+    padding: 15px;
+    color: white;
+}
+.service-logo{
+    width: 70px;;
+}
+.box-btn{
+    background-color: gray;
+    margin-top: 10px;
+}
+.box-title{
+    padding: 10px;
+}
+.box-info{
+    padding: 5px;
+}
+.abt-title{
+    font-size: 30px;;
+}
+.abt-info{
+    font-size: 20px;
+}
+ 
