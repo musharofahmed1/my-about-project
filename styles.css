@@ -133,7 +133,7 @@ summary{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 20px 0px 20px 0px;
+    padding-left: 60px;
     background-color: black;
     color: white;
     height: 250px;
@@ -142,9 +142,9 @@ summary{
 .contact-deatails{
     
     height: 150px;
-    width: 250px;
+    width: 300px;
     padding: 10px;
-     
+    font-size: 20px;
     color: white;
     
 }
@@ -152,8 +152,8 @@ summary{
 }
 .link{
     list-style: none;
-    font-size: 20px;
     
+     
     
 }
 .link:hover{
@@ -168,7 +168,7 @@ h3{
     height: 150px;
     width: 250px;
     padding: 10px;
-    
+    font-size: 20px;
     color: white; 
 }
 ul > li > a{
